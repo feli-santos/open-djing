@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+
+# open-djing local data (never commit user library data)
+*.sqlite
+*.sqlite3
+*.db
+
+# Audio files (repo ships code, not music)
+*.mp3
+*.flac
+*.wav
+*.aiff
+*.m4a
+*.ogg
+
+# macOS
+.DS_Store
